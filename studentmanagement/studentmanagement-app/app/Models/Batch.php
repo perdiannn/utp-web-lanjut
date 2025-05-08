@@ -13,7 +13,6 @@ class Batch extends Model
     
     use HasFactory;
 
-
     public function course()
     {
         return $this->belongsTo(Course::class);
